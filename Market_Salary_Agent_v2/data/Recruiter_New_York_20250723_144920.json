@@ -1,0 +1,27 @@
+{
+  "role": "Recruiter",
+  "experience_level": "Entry",
+  "location": "New York",
+  "query": "",
+  "sources_used": [
+    "ZipRecruiter",
+    "Salary.com",
+    "Indeed",
+    "Levels.fyi"
+  ],
+  "salary_range": "XXXX",
+  "min": "XXXX",
+  "max": "XXXX",
+  "median": "XXXX",
+  "average": "XXXX",
+  "percentile_75": "XXXX",
+  "total_compensation": "XXXX",
+  "source_summary": {
+    "ZipRecruiter": "XXXX",
+    "Salary.com": "XXXX",
+    "Indeed": "XXXX",
+    "Levels.fyi": "XXXX"
+  },
+  "text_summary": "XXXX",
+  "retrieved_at": "2025-07-23T14:49:20.457087"
+}

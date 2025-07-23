@@ -1,0 +1,27 @@
+{
+  "role": "Recruiter",
+  "experience_level": "entry",
+  "location": "CA",
+  "query": "",
+  "sources_used": [
+    "ZipRecruiter",
+    "Salary.com",
+    "Indeed",
+    "Levels.fyi"
+  ],
+  "salary_range": "35500 - 46900",
+  "min": 23686,
+  "max": 62668,
+  "median": null,
+  "average": 43012,
+  "percentile_75": 46900,
+  "total_compensation": null,
+  "source_summary": {
+    "ZipRecruiter": {
+      "summary": "The average entry-level recruiter salary in California is $43,012 per year ($20.68/hour) as of June 2025. Salaries range from $23,686 to $62,668, with the 25th percentile at $35,500 and the 75th percentile at $46,900. Top earners (90th percentile) make about $54,773 annually. The job market is not very active and California ranks 50th in the US for entry-level recruiter salaries.",
+      "url": "https://www.ziprecruiter.com/Salaries/Recruiter-Salary--in-California"
+    }
+  },
+  "text_summary": "Based on ZipRecruiter data from mid-2025, an entry-level recruiter in California earns on average about $43,000 annually, with most salaries falling between $35,500 and $46,900. The salary range is wide, reflecting differences in skill, location, and experience. Other sources (Salary.com, Indeed, Levels.fyi) did not provide data in the search results.",
+  "retrieved_at": "2025-07-23T10:55:18.046320"
+}

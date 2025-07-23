@@ -1,0 +1,22 @@
+{
+  "role": "Recruiter",
+  "experience_level": "entry",
+  "location": "new york",
+  "query": "",
+  "sources_used": [
+    "ZipRecruiter",
+    "Salary.com",
+    "Indeed",
+    "Levels.fyi"
+  ],
+  "salary_range": null,
+  "min": null,
+  "max": null,
+  "median": null,
+  "average": null,
+  "percentile_75": null,
+  "total_compensation": null,
+  "source_summary": {},
+  "text_summary": "{'id': '51666429-74df-4e8f-ac8b-ddb7f58127cb', 'model': 'sonar', 'created': 1753282257, 'usage': {'prompt_tokens': 135, 'completion_tokens': 270, 'total_tokens': 405, 'search_context_size': 'low'}, 'citations': ['https://www.ziprecruiter.com/Salaries/Recruiter-Salary--in-New-York', 'https://www.ziprecruiter.com/Salaries/Entry-Level-Recruiter-Salary-in-New-York-City,NY', 'https://www.ziprecruiter.com/Salaries/Tech-Recruiter-Salary-in-New-York-City,NY', 'https://www.ziprecruiter.com/Salaries/Senior-Recruiter-Salary-in-New-York-City,NY', 'https://www.ziprecruiter.com/Salaries/Recruiter-Base-Salary--in-New-York'], 'search_results': [{'title': 'Recruiter Salary in New York: Hourly Rate (July, 2025) - ZipRecruiter', 'url': 'https://www.ziprecruiter.com/Salaries/Recruiter-Salary--in-New-York', 'date': '2025-01-01', 'last_updated': '2025-06-11'}, {'title': 'Entry Level Recruiter Salary in New York City, NY - ZipRecruiter', 'url': 'https://www.ziprecruiter.com/Salaries/Entry-Level-Recruiter-Salary-in-New-York-City,NY', 'date': '2025-07-13', 'last_updated': '2025-07-20'}, {'title': 'Salary: Tech Recruiter in New York City, NY (Jul, 2025) - ZipRecruiter', 'url': 'https://www.ziprecruiter.com/Salaries/Tech-Recruiter-Salary-in-New-York-City,NY', 'date': '2025-07-13', 'last_updated': '2025-07-21'}, {'title': 'Salary: Senior Recruiter in New York City, NY (Jul, 2025)', 'url': 'https://www.ziprecruiter.com/Salaries/Senior-Recruiter-Salary-in-New-York-City,NY', 'date': '2025-06-22', 'last_updated': '2025-06-29'}, {'title': 'Recruiter Base Salary in New York: Hourly Rate (Jul, 2025)', 'url': 'https://www.ziprecruiter.com/Salaries/Recruiter-Base-Salary--in-New-York', 'date': None, 'last_updated': None}], 'object': 'chat.completion', 'choices': [{'index': 0, 'finish_reason': 'stop', 'message': {'role': 'assistant', 'content': '{\\n  \"salary_range\": \"26257 - 69471\",\\n  \"min\": 26257,\\n  \"max\": 69471,\\n  \"median\": null,\\n  \"average\": 47681,\\n  \"percentile_75\": 52000,\\n  \"total_compensation\": null,\\n  \"source_summary\": {\\n    \"ZipRecruiter\": \"As of July 13, 2025, the average entry-level recruiter salary in New York City is $47,681 annually ($22.92/hour). Salaries range from $26,257 to $69,471, with the 25th percentile at $39,400 and the 75th percentile at $52,000. Top earners (90th percentile) make about $60,718 annually. The job market for entry-level recruiters in NYC is very active.\"\\n  },\\n  \"text_summary\": \"The average salary for an entry-level recruiter in New York City is approximately $47,681 per year, with a typical range between $26,257 and $69,471 annually according to ZipRecruiter data from mid-2025. The majority earn between $39,400 (25th percentile) and $52,000 (75th percentile). No specific median or total compensation data was found from the other sources.\"\\n}'}, 'delta': {'role': 'assistant', 'content': ''}}]}",
+  "retrieved_at": "2025-07-23T14:50:57.597512"
+}

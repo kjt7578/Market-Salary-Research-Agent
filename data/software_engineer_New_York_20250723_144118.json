@@ -1,0 +1,27 @@
+{
+  "role": "software engineer",
+  "experience_level": "associate",
+  "location": "New York",
+  "query": "",
+  "sources_used": [
+    "ZipRecruiter",
+    "Salary.com",
+    "Indeed",
+    "Levels.fyi"
+  ],
+  "salary_range": "90000 - 120000",
+  "min": 90000,
+  "max": 120000,
+  "median": 105000,
+  "average": 107000,
+  "percentile_75": 120000,
+  "total_compensation": 115000,
+  "source_summary": {
+    "ZipRecruiter": "ZipRecruiter reports an average of $107,000.",
+    "Salary.com": "Salary.com median is $105,000.",
+    "Indeed": "Indeed range is $90,000 - $120,000.",
+    "Levels.fyi": "Levels.fyi TC is $115,000."
+  },
+  "text_summary": "The average salary for a Software Engineer (0-3 years) in New Jersey is about $107,000, with most sources reporting a range between $90,000 and $120,000.",
+  "retrieved_at": "2025-07-23T14:41:18.646590"
+}
