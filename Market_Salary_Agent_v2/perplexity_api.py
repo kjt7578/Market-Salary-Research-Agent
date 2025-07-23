@@ -65,11 +65,24 @@ def mock_perplexity_api(prompt: str) -> str:
         "text_summary": "XXXX"
     })
 
-def build_prompt(query: SalaryQuery) -> str:
+def build_prompt(query: 'SalaryQuery') -> str:
     sources = ", ".join(TRUSTED_SOURCES)
-    return PROMPT_TEMPLATE.format(
-        role=query.role,
-        experience_level=query.experience_level,
-        location=query.location,
-        sources=sources
-    ) 
+    base = f"I want to know the average salary for a {query.role} with {query.experience_level} in {query.location}"
+    if getattr(query, 'query', None):
+        base += f" (with the following context: {query.query})"
+    base += (
+        f". Please answer ONLY based on the following sources: {sources}. "
+        "Respond strictly in the following JSON format: {{\n"
+        "  \"salary_range\": \"min - max\",\n"
+        "  \"min\": int,\n"
+        "  \"max\": int,\n"
+        "  \"median\": int,\n"
+        "  \"average\": int,\n"
+        "  \"percentile_75\": int,\n"
+        "  \"total_compensation\": int,\n"
+        "  \"source_summary\": {{\"ZipRecruiter\": \"...\", ...}},\n"
+        "  \"text_summary\": \"...\"\n"
+        "}}\n"
+        "If you cannot find a value, set it to null."
+    )
+    return base 
