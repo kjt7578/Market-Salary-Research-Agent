@@ -1,0 +1,3 @@
+requests>=2.31.0
+python-dotenv>=1.0.1
+# dataclasses는 Python 3.7~3.9에서만 필요, 3.12는 내장 

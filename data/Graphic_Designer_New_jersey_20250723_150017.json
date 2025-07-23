@@ -1,0 +1,18 @@
+{
+  "role": "Graphic Designer",
+  "level": "Manager",
+  "location": "New jersey",
+  "sources_used": "ZipRecruiter, Salary.com, Indeed, Levels.fyi",
+  "salary_range": "62000 - 179241",
+  "min": 62000,
+  "max": 179241,
+  "average": 103852,
+  "percentile_25": "N/A",
+  "percentile_75": 82200,
+  "ZipRecruiter source": "Reports an average annual salary of $73,209 for Graphic Design Manager in New Jersey, with a salary range mostly between $62,400 (25th percentile) and $82,200 (75th percentile), and top earners at $91,371 (90th percentile). | N/A",
+  "Salary.com source": "Lists a higher average salary of $136,629 with a range from $103,062 to $179,241, and most professionals earning between $119,058 and $158,934. | N/A",
+  "Indeed source": "No direct data found in the provided sources. | N/A",
+  "Levels.fyi source": "No data found for Graphic Design Manager in New Jersey. | N/A",
+  "summary": "The average salary for a Graphic Design Manager in New Jersey varies significantly by source. ZipRecruiter reports a lower average around $73,209 with a typical range from $62,400 to $82,200. Salary.com provides a substantially higher average of $136,629 with a broader range up to $179,241. SalaryExpert's figure of $106,259 falls between these two. The 75th percentile salary from ZipRecruiter is $82,200. No total compensation or median salary data was available. The differences likely reflect variations in data collection methods and job market segments.",
+  "updated_date": "2025-07-23T11:00:17.710235"
+}
