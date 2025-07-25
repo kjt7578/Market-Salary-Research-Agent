@@ -14,9 +14,13 @@ def main():
     role = input("직무명 (예: Software Engineer): ").strip()
     experience_level = input("경력/레벨 (예: 0-3 years, Entry): ").strip()
     location = input("지역 (예: New Jersey): ").strip()
+    extra = input("추가 내용(선택, 예: 특정 산업, 기술, 요구사항 등): ").strip()
 
-    query = SalaryQuery(role=role, experience_level=experience_level, location=location)
+    # query에 추가 내용 포함
+    query = SalaryQuery(role=role, experience_level=experience_level, location=location, query=extra)
     prompt = build_prompt(query)
+    if extra:
+        prompt += f"\nAdditional context: {extra}"
     print("\n[DEBUG] Perplexity 프롬프트:")
     print(prompt)
 
